@@ -265,8 +265,9 @@ plot_profile(
   output_file = "output/manova_profile_plot_inclination.png",
   linetype_values = c("Inclined" = "solid", "Not inclined" = "dashed"),
   shape_values = c("Inclined" = 16, "Not inclined" = 17),
-  color_values = c("Inclined" = "#005FBE", "Not inclined" = "#E03C39"),
-  highlight_outcomes = c("Intention")
+  color_values = c("Inclined" = "#1A1A1A", "Not inclined" = "#757575"),  # greyscale
+  highlight_outcomes = c("Intention"),
+  axis_highlight_color = "black"
 )
 
 # Black-and-white copies for paper appendices. These use the same geometry,
