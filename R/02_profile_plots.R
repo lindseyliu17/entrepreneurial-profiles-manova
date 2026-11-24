@@ -255,8 +255,9 @@ plot_profile(
   output_file = "output/manova_profile_plot_gender.png",
   linetype_values = c("Male" = "solid", "Female" = "dashed"),
   shape_values = c("Male" = 16, "Female" = 17),
-  color_values = c("Male" = "#005FBE", "Female" = "#E03C39"),
-  highlight_outcomes = c("PBC", "SSN", "Innova", "Education")
+  color_values = c("Male" = "#1A1A1A", "Female" = "#757575"),  # greyscale
+  highlight_outcomes = c("PBC", "SSN", "Innova", "Education"),
+  axis_highlight_color = "black"
 )
 
 plot_profile(
